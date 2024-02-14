@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad84b5b-fa82-490f-9eb8-a113ab692d15" name="Changes" comment="Two stacks are created. Enter the number or negative number entered by the user. In the while loop, if the integer is greater than 0, it goes to the driveway stack. If it is less than 0, driveway.pop. I wrote a method called &quot;CarMoveToStreet&quot;. It can be realized that when the number is less than 0, the car will be popped out of the driveway stack, the corresponding number will be removed, and then the remaining cars will be returned from the streetway to the driveway stack." />
+    <list default="true" id="8ad84b5b-fa82-490f-9eb8-a113ab692d15" name="Changes" comment="I created a pair class to store coordinates in a 2D array, and the floodFillStart() method initializes a 10x10 2D array with all elements set to 0. The display() method displays the contents of a 2d array. The buildWalls() method sets some coordinates -1 as the wall. This fill() method is used to fill the region starting from the given coordinates in the 2d array. The incremental value iteratively fills adjacent pixels until more pixels cannot be filled">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CA3_Question3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707928148026</updated>
       <workItem from="1707928149060" duration="173000" />
-      <workItem from="1707928333863" duration="1186000" />
+      <workItem from="1707928333863" duration="3614000" />
     </task>
     <task id="LOCAL-00001" summary="Two stacks are created. Enter the number or negative number entered by the user. In the while loop, if the integer is greater than 0, it goes to the driveway stack. If it is less than 0, driveway.pop. I wrote a method called &quot;CarMoveToStreet&quot;. It can be realized that when the number is less than 0, the car will be popped out of the driveway stack, the corresponding number will be removed, and then the remaining cars will be returned from the streetway to the driveway stack.">
       <option name="closed" value="true" />
@@ -83,7 +86,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707929495518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Two stacks are created. Enter the number or negative number entered by the user. In the while loop, if the integer is greater than 0, it goes to the driveway stack. If it is less than 0, driveway.pop. I wrote a method called &quot;CarMoveToStreet&quot;. It can be realized that when the number is less than 0, the car will be popped out of the driveway stack, the corresponding number will be removed, and then the remaining cars will be returned from the streetway to the driveway stack.">
+      <option name="closed" value="true" />
+      <created>1707929657006</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707929657006</updated>
+    </task>
+    <task id="LOCAL-00003" summary="I created a pair class to store coordinates in a 2D array, and the floodFillStart() method initializes a 10x10 2D array with all elements set to 0. The display() method displays the contents of a 2d array. The buildWalls() method sets some coordinates -1 as the wall. This fill() method is used to fill the region starting from the given coordinates in the 2d array. The incremental value iteratively fills adjacent pixels until more pixels cannot be filled">
+      <option name="closed" value="true" />
+      <created>1707931475877</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707931475877</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Two stacks are created. Enter the number or negative number entered by the user. In the while loop, if the integer is greater than 0, it goes to the driveway stack. If it is less than 0, driveway.pop. I wrote a method called &quot;CarMoveToStreet&quot;. It can be realized that when the number is less than 0, the car will be popped out of the driveway stack, the corresponding number will be removed, and then the remaining cars will be returned from the streetway to the driveway stack." />
-    <option name="LAST_COMMIT_MESSAGE" value="Two stacks are created. Enter the number or negative number entered by the user. In the while loop, if the integer is greater than 0, it goes to the driveway stack. If it is less than 0, driveway.pop. I wrote a method called &quot;CarMoveToStreet&quot;. It can be realized that when the number is less than 0, the car will be popped out of the driveway stack, the corresponding number will be removed, and then the remaining cars will be returned from the streetway to the driveway stack." />
+    <MESSAGE value="I created a pair class to store coordinates in a 2D array, and the floodFillStart() method initializes a 10x10 2D array with all elements set to 0. The display() method displays the contents of a 2d array. The buildWalls() method sets some coordinates -1 as the wall. This fill() method is used to fill the region starting from the given coordinates in the 2d array. The incremental value iteratively fills adjacent pixels until more pixels cannot be filled" />
+    <option name="LAST_COMMIT_MESSAGE" value="I created a pair class to store coordinates in a 2D array, and the floodFillStart() method initializes a 10x10 2D array with all elements set to 0. The display() method displays the contents of a 2d array. The buildWalls() method sets some coordinates -1 as the wall. This fill() method is used to fill the region starting from the given coordinates in the 2d array. The incremental value iteratively fills adjacent pixels until more pixels cannot be filled" />
   </component>
 </project>
