@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad84b5b-fa82-490f-9eb8-a113ab692d15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Question1.java" afterDir="false" />
-    </list>
+    <list default="true" id="8ad84b5b-fa82-490f-9eb8-a113ab692d15" name="Changes" comment="Two stacks are created. Enter the number or negative number entered by the user. In the while loop, if the integer is greater than 0, it goes to the driveway stack. If it is less than 0, driveway.pop. I wrote a method called &quot;CarMoveToStreet&quot;. It can be realized that when the number is less than 0, the car will be popped out of the driveway stack, the corresponding number will be removed, and then the remaining cars will be returned from the streetway to the driveway stack." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,16 +29,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/xhanhan/Library/CloudStorage/OneDrive-DundalkInstituteofTechnology/Year2 OO Programming/oop-ca3-Jianfeng-Han/src/main/java/org/example/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "/Users/xhanhan/Library/CloudStorage/OneDrive-DundalkInstituteofTechnology/Year2 OO Programming/oop-ca3-Jianfeng-Han/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="CA3_Question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.CA3_Question1" />
@@ -75,10 +73,24 @@
       <option name="presentableId" value="Default" />
       <updated>1707928148026</updated>
       <workItem from="1707928149060" duration="173000" />
+      <workItem from="1707928333863" duration="1186000" />
     </task>
+    <task id="LOCAL-00001" summary="Two stacks are created. Enter the number or negative number entered by the user. In the while loop, if the integer is greater than 0, it goes to the driveway stack. If it is less than 0, driveway.pop. I wrote a method called &quot;CarMoveToStreet&quot;. It can be realized that when the number is less than 0, the car will be popped out of the driveway stack, the corresponding number will be removed, and then the remaining cars will be returned from the streetway to the driveway stack.">
+      <option name="closed" value="true" />
+      <created>1707929495518</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707929495518</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Two stacks are created. Enter the number or negative number entered by the user. In the while loop, if the integer is greater than 0, it goes to the driveway stack. If it is less than 0, driveway.pop. I wrote a method called &quot;CarMoveToStreet&quot;. It can be realized that when the number is less than 0, the car will be popped out of the driveway stack, the corresponding number will be removed, and then the remaining cars will be returned from the streetway to the driveway stack." />
+    <option name="LAST_COMMIT_MESSAGE" value="Two stacks are created. Enter the number or negative number entered by the user. In the while loop, if the integer is greater than 0, it goes to the driveway stack. If it is less than 0, driveway.pop. I wrote a method called &quot;CarMoveToStreet&quot;. It can be realized that when the number is less than 0, the car will be popped out of the driveway stack, the corresponding number will be removed, and then the remaining cars will be returned from the streetway to the driveway stack." />
   </component>
 </project>
