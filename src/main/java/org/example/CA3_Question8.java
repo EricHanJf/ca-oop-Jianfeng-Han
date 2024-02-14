@@ -57,5 +57,6 @@ public class CA3_Question8 {
             System.out.println("No equation provided.");
         }
     }
+
 }
 
