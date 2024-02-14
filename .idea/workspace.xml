@@ -51,7 +51,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CA3_Question8">
+  <component name="RunManager" selected="Application.CA3_Question9">
     <configuration name="CA3_Question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.CA3_Question1" />
       <module name="oop-ca3-Jianfeng-Han" />
@@ -91,8 +91,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CA3_Question9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.CA3_Question9" />
+      <module name="oop-ca3-Jianfeng-Han" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CA3_Question9" />
         <item itemvalue="Application.CA3_Question8" />
         <item itemvalue="Application.CA3_Question4" />
         <item itemvalue="Application.CA3_Question1" />
@@ -109,6 +123,7 @@
       <updated>1707928148026</updated>
       <workItem from="1707928149060" duration="173000" />
       <workItem from="1707928333863" duration="10093000" />
+      <workItem from="1707946935604" duration="137000" />
     </task>
     <task id="LOCAL-00001" summary="Two stacks are created. Enter the number or negative number entered by the user. In the while loop, if the integer is greater than 0, it goes to the driveway stack. If it is less than 0, driveway.pop. I wrote a method called &quot;CarMoveToStreet&quot;. It can be realized that when the number is less than 0, the car will be popped out of the driveway stack, the corresponding number will be removed, and then the remaining cars will be returned from the streetway to the driveway stack.">
       <option name="closed" value="true" />
@@ -182,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707946800661</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="First, create a stack to store numbers, split the input equation into tags based on spaces, and then determine whether the first character of the equation is a number. If it is a number, return true and push the number onto the stack. If it is a symbol, select number1 and number2 from the stack and perform+- */. The final result is pushed to the stack in the next push. Then print the calculation process and results..">
+      <option name="closed" value="true" />
+      <created>1707946980967</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707946980967</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +220,7 @@
     <MESSAGE value="Firstly, I created two queues in the main method to store the quantity and price of stocks. Prompt users to purchase, sell, and exit stocks. If you choose to buy, enter the quantity and price of the purchase, and then call the buy () method. Add the quantity and price to the queue in the buy () method. The sell () method is to calculate the difference between the selling price and the buying price, and find out how much money you finally earned." />
     <MESSAGE value="Question7 is similar to Question6 in that it defines a class called &quot;block&quot; that contains stock blocks with company name, quantity, and price attributes, allowing users to buy and sell stocks from different companies. Use Map to track the stocks of each company. Each company's stocks are stored in a queue. The sell() method is still used to calculate the amount of profit. And there is a lack of printing out the remaining number of stocks" />
     <MESSAGE value="First, create a stack to store numbers, split the input equation into tags based on spaces, and then determine whether the first character of the equation is a number. If it is a number, return true and push the number onto the stack. If it is a symbol, select number1 and number2 from the stack and perform+- */. The final result is pushed to the stack in the next push. Then print the calculation process and results." />
-    <option name="LAST_COMMIT_MESSAGE" value="First, create a stack to store numbers, split the input equation into tags based on spaces, and then determine whether the first character of the equation is a number. If it is a number, return true and push the number onto the stack. If it is a symbol, select number1 and number2 from the stack and perform+- */. The final result is pushed to the stack in the next push. Then print the calculation process and results." />
+    <MESSAGE value="First, create a stack to store numbers, split the input equation into tags based on spaces, and then determine whether the first character of the equation is a number. If it is a number, return true and push the number onto the stack. If it is a symbol, select number1 and number2 from the stack and perform+- */. The final result is pushed to the stack in the next push. Then print the calculation process and results.." />
+    <option name="LAST_COMMIT_MESSAGE" value="First, create a stack to store numbers, split the input equation into tags based on spaces, and then determine whether the first character of the equation is a number. If it is a number, return true and push the number onto the stack. If it is a symbol, select number1 and number2 from the stack and perform+- */. The final result is pushed to the stack in the next push. Then print the calculation process and results.." />
   </component>
 </project>
