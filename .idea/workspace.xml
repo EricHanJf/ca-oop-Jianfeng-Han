@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad84b5b-fa82-490f-9eb8-a113ab692d15" name="Changes" comment="I created two queues, TakeOff and. Landing LinkedList&#10;&#10;Firstly, there is a loop that repeatedly prompts the user to input instructions.&#10;&#10;Based on the input instruction, it calls the corresponding methods: takeoff(), landing(), Next(), or exits the program.&#10;&#10;The takeoff() method adds the flight name to the queue for TakeOff. The landing() method also adds the flight name to the queue. The Next() method is to check if there are any planes waiting to land (Landing queue). If there is, it will delete the first aircraft from the queue and print the information. If there is no aircraft to land in the landing queue, the aircraft in the takeoff queue will be checked, and the first aircraft will be removed from the queue and printed as takeoff. If there are no planes in both queues, it will print that there are no planes in both queues.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CA3_Question6.java" afterDir="false" />
+    <list default="true" id="8ad84b5b-fa82-490f-9eb8-a113ab692d15" name="Changes" comment="Question7 is similar to Question6 in that it defines a class called &quot;block&quot; that contains stock blocks with company name, quantity, and price attributes, allowing users to buy and sell stocks from different companies. Use Map to track the stocks of each company. Each company's stocks are stored in a queue. The sell() method is still used to calculate the amount of profit. And there is a lack of printing out the remaining number of stocks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CA3_Question8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707928148026</updated>
       <workItem from="1707928149060" duration="173000" />
-      <workItem from="1707928333863" duration="8164000" />
+      <workItem from="1707928333863" duration="9966000" />
     </task>
     <task id="LOCAL-00001" summary="Two stacks are created. Enter the number or negative number entered by the user. In the while loop, if the integer is greater than 0, it goes to the driveway stack. If it is less than 0, driveway.pop. I wrote a method called &quot;CarMoveToStreet&quot;. It can be realized that when the number is less than 0, the car will be popped out of the driveway stack, the corresponding number will be removed, and then the remaining cars will be returned from the streetway to the driveway stack.">
       <option name="closed" value="true" />
@@ -147,7 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707935863558</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Firstly, I created two queues in the main method to store the quantity and price of stocks. Prompt users to purchase, sell, and exit stocks. If you choose to buy, enter the quantity and price of the purchase, and then call the buy () method. Add the quantity and price to the queue in the buy () method. The sell () method is to calculate the difference between the selling price and the buying price, and find out how much money you finally earned.">
+      <option name="closed" value="true" />
+      <created>1707944998104</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707944998104</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Question7 is similar to Question6 in that it defines a class called &quot;block&quot; that contains stock blocks with company name, quantity, and price attributes, allowing users to buy and sell stocks from different companies. Use Map to track the stocks of each company. Each company's stocks are stored in a queue. The sell() method is still used to calculate the amount of profit. And there is a lack of printing out the remaining number of stocks">
+      <option name="closed" value="true" />
+      <created>1707945816224</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707945816224</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +175,8 @@
     <MESSAGE value="The method readFile() reads the specified file &quot;fileName&quot;, in. useDelimiter (&quot;[^ A-Za-z0-9_]+&quot;); It is a regular expression used to find symbols and words that match this expression. Created a TreeMap named identifierMap, where keys are tokens (identifiers) and values are sets of line numbers where each token appears. Then, a while loop is used to find the identifier. If it meets the requirements of the expression, it is stored as a key in Map&lt;String&gt;, and each line is stored in set&lt;Integer&gt;. Use enhanced for to traverse the content in the Map and print it out" />
     <MESSAGE value="Created an ArrayDeque call stack to track open tags encountered in files. Each tag should be compared to the last start tag encountered in the file. Ensure proper nesting. If all tags are nested correctly, this method returns true; Otherwise, return false.(If could not run, please try to run code i uploaded on moodle)." />
     <MESSAGE value="I created two queues, TakeOff and. Landing LinkedList&#10;&#10;Firstly, there is a loop that repeatedly prompts the user to input instructions.&#10;&#10;Based on the input instruction, it calls the corresponding methods: takeoff(), landing(), Next(), or exits the program.&#10;&#10;The takeoff() method adds the flight name to the queue for TakeOff. The landing() method also adds the flight name to the queue. The Next() method is to check if there are any planes waiting to land (Landing queue). If there is, it will delete the first aircraft from the queue and print the information. If there is no aircraft to land in the landing queue, the aircraft in the takeoff queue will be checked, and the first aircraft will be removed from the queue and printed as takeoff. If there are no planes in both queues, it will print that there are no planes in both queues." />
-    <option name="LAST_COMMIT_MESSAGE" value="I created two queues, TakeOff and. Landing LinkedList&#10;&#10;Firstly, there is a loop that repeatedly prompts the user to input instructions.&#10;&#10;Based on the input instruction, it calls the corresponding methods: takeoff(), landing(), Next(), or exits the program.&#10;&#10;The takeoff() method adds the flight name to the queue for TakeOff. The landing() method also adds the flight name to the queue. The Next() method is to check if there are any planes waiting to land (Landing queue). If there is, it will delete the first aircraft from the queue and print the information. If there is no aircraft to land in the landing queue, the aircraft in the takeoff queue will be checked, and the first aircraft will be removed from the queue and printed as takeoff. If there are no planes in both queues, it will print that there are no planes in both queues." />
+    <MESSAGE value="Firstly, I created two queues in the main method to store the quantity and price of stocks. Prompt users to purchase, sell, and exit stocks. If you choose to buy, enter the quantity and price of the purchase, and then call the buy () method. Add the quantity and price to the queue in the buy () method. The sell () method is to calculate the difference between the selling price and the buying price, and find out how much money you finally earned." />
+    <MESSAGE value="Question7 is similar to Question6 in that it defines a class called &quot;block&quot; that contains stock blocks with company name, quantity, and price attributes, allowing users to buy and sell stocks from different companies. Use Map to track the stocks of each company. Each company's stocks are stored in a queue. The sell() method is still used to calculate the amount of profit. And there is a lack of printing out the remaining number of stocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Question7 is similar to Question6 in that it defines a class called &quot;block&quot; that contains stock blocks with company name, quantity, and price attributes, allowing users to buy and sell stocks from different companies. Use Map to track the stocks of each company. Each company's stocks are stored in a queue. The sell() method is still used to calculate the amount of profit. And there is a lack of printing out the remaining number of stocks" />
   </component>
 </project>
