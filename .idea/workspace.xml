@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad84b5b-fa82-490f-9eb8-a113ab692d15" name="Changes" comment="First, create a stack to store numbers, split the input equation into tags based on spaces, and then determine whether the first character of the equation is a number. If it is a number, return true and push the number onto the stack. If it is a symbol, select number1 and number2 from the stack and perform+- */. The final result is pushed to the stack in the next push. Then print the calculation process and results.." />
+    <list default="true" id="8ad84b5b-fa82-490f-9eb8-a113ab692d15" name="Changes" comment="Define the main class for solving maze problems. There are instance variables to store maze structures, visited cells, and paths taken. Display() method: Display the 2D array of the maze. Use a stack to track the current position and explore adjacent cells&#10;  &#10;  After finding the destination (with a cell value of 2), print the path taken to reach the destination">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CA3_Question10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DistanceTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +23,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "EricHanJf"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4d32b0a4-d604-4340-b8c4-142317ffa066" />
+        <option name="url" value="https://github.com/EricHanJf/ca-oop-Jianfeng-Han.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -124,6 +142,7 @@
       <workItem from="1707928149060" duration="173000" />
       <workItem from="1707928333863" duration="10093000" />
       <workItem from="1707946935604" duration="137000" />
+      <workItem from="1707947175288" duration="2752000" />
     </task>
     <task id="LOCAL-00001" summary="Two stacks are created. Enter the number or negative number entered by the user. In the while loop, if the integer is greater than 0, it goes to the driveway stack. If it is less than 0, driveway.pop. I wrote a method called &quot;CarMoveToStreet&quot;. It can be realized that when the number is less than 0, the car will be popped out of the driveway stack, the corresponding number will be removed, and then the remaining cars will be returned from the streetway to the driveway stack.">
       <option name="closed" value="true" />
@@ -205,7 +224,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707946980967</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="sd">
+      <option name="closed" value="true" />
+      <created>1707947237399</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707947237399</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Define the main class for solving maze problems. There are instance variables to store maze structures, visited cells, and paths taken. Display() method: Display the 2D array of the maze. Use a stack to track the current position and explore adjacent cells&#10;  &#10;  After finding the destination (with a cell value of 2), print the path taken to reach the destination">
+      <option name="closed" value="true" />
+      <created>1707956470903</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707956470903</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +256,8 @@
     <MESSAGE value="Question7 is similar to Question6 in that it defines a class called &quot;block&quot; that contains stock blocks with company name, quantity, and price attributes, allowing users to buy and sell stocks from different companies. Use Map to track the stocks of each company. Each company's stocks are stored in a queue. The sell() method is still used to calculate the amount of profit. And there is a lack of printing out the remaining number of stocks" />
     <MESSAGE value="First, create a stack to store numbers, split the input equation into tags based on spaces, and then determine whether the first character of the equation is a number. If it is a number, return true and push the number onto the stack. If it is a symbol, select number1 and number2 from the stack and perform+- */. The final result is pushed to the stack in the next push. Then print the calculation process and results." />
     <MESSAGE value="First, create a stack to store numbers, split the input equation into tags based on spaces, and then determine whether the first character of the equation is a number. If it is a number, return true and push the number onto the stack. If it is a symbol, select number1 and number2 from the stack and perform+- */. The final result is pushed to the stack in the next push. Then print the calculation process and results.." />
-    <option name="LAST_COMMIT_MESSAGE" value="First, create a stack to store numbers, split the input equation into tags based on spaces, and then determine whether the first character of the equation is a number. If it is a number, return true and push the number onto the stack. If it is a symbol, select number1 and number2 from the stack and perform+- */. The final result is pushed to the stack in the next push. Then print the calculation process and results.." />
+    <MESSAGE value="sd" />
+    <MESSAGE value="Define the main class for solving maze problems. There are instance variables to store maze structures, visited cells, and paths taken. Display() method: Display the 2D array of the maze. Use a stack to track the current position and explore adjacent cells&#10;  &#10;  After finding the destination (with a cell value of 2), print the path taken to reach the destination" />
+    <option name="LAST_COMMIT_MESSAGE" value="Define the main class for solving maze problems. There are instance variables to store maze structures, visited cells, and paths taken. Display() method: Display the 2D array of the maze. Use a stack to track the current position and explore adjacent cells&#10;  &#10;  After finding the destination (with a cell value of 2), print the path taken to reach the destination" />
   </component>
 </project>
