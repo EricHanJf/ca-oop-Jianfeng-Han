@@ -47,6 +47,7 @@ public class CA3_Question10 {
         pq.offer(startCity);
 
         while (!pq.isEmpty()) {
+
             String currentCity = pq.poll();
             int currentDistance = shortestDistances.get(currentCity);
 
